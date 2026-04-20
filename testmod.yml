@@ -1,0 +1,26 @@
+---
+- name: Test my own module
+  hosts: localhost
+  gather_facts: no
+  
+  tasks:
+    - name: Create a file with my_own_module
+      my_own_module:
+        path: /tmp/test_from_module.txt
+        content: |
+          This is a test file
+          Created by my custom module
+          Date: $(date)
+      register: result
+    
+    - name: Show module result
+      debug:
+        var: result
+    
+    - name: Verify file content
+      command: cat /tmp/test_from_module.txt
+      register: file_content
+    
+    - name: Show file content
+      debug:
+        var: file_content.stdout_lines
