@@ -16,7 +16,7 @@
 <p align="center">
   <img src="scrsht/S2.png"  width="900"/>
   <br>
-  <em> Проверька через playbook на идемпотентность. </em>
+  <em> Проверка через playbook на идемпотентность. </em>
 </p>
 
 #### Задание 15
@@ -24,6 +24,7 @@
 <br>
 <p align="center">
   <img src="scrsht/S4.png"  width="900"/>
+  <em> Установка collection из локального архива.  </em>
   <br>
 </p>
 
