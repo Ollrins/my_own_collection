@@ -23,12 +23,6 @@
 
 <br>
 <p align="center">
-  <img src="scrsht/S3.png"  width="900"/>
-  <br>
-  <em> Результат установки collection из локального архива </em>
-</p>
-<br>
-<p align="center">
   <img src="scrsht/S4.png"  width="900"/>
   <br>
 </p>
