@@ -24,6 +24,7 @@
 <br>
 <p align="center">
   <img src="scrsht/S4.png"  width="900"/>
+    <br>
   <em> Установка collection из локального архива.  </em>
   <br>
 </p>
